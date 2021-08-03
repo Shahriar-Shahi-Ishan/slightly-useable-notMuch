@@ -10,11 +10,13 @@ body
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
+    background-repeat: no-repeat;
 }
 .menu-bar
 {
     background: rgba(4, 85, 78, 0.493);
     text-align: center;
+    width: 100vw;
 }
 .menu-bar ul
 {
@@ -24,7 +26,7 @@ body
 }
 .menu-bar ul li
 {
-    width: 100vw;
+    width: 120px;
     margin: 15px;
     padding: 15px;
 }
